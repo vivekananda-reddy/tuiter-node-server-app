@@ -1,10 +1,12 @@
 {
+  "type": "module",
   "name": "tuiter-node-server-app",
   "version": "1.0.0",
   "description": "node server for tuiter app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/vivekananda-reddy/tuiter-node-server-app/issues"
   },
-  "homepage": "https://github.com/vivekananda-reddy/tuiter-node-server-app#readme"
+  "homepage": "https://github.com/vivekananda-reddy/tuiter-node-server-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
